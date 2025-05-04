@@ -36,14 +36,14 @@
 				      <username>kafee678</username>
 				      <password>Sofia@651</password>
 				      <applicationName>${project.artifactId}</applicationName>
-				      <environment>SANDBOX</environment>
+				      <environment>Dev</environment>
 				      <region>us-east-2</region>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
 				      <objectStoreV2>true</objectStoreV2>
 				      <properties>
 				        <http.port>${http.port}</http.port>
-				        <mule.env>SANDBOX</mule.env>
+				        <mule.env>Dev</mule.env>
 				      </properties>
 				    </cloudHubDeployment>
 				  </configuration>
