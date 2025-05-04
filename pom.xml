@@ -34,6 +34,7 @@
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.6.15</muleVersion>
 				      <username>kafee678</username>
+					  <provider>MC</provider>
 				      <password>Sofia@651</password>
 				      <applicationName>${project.artifactId}</applicationName>
 				      <environment>Dev</environment>
