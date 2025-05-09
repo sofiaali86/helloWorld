@@ -33,7 +33,7 @@
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.6.15</muleVersion>
-					  <authToken>Bearer b500ff41-94e6-49fa-a4cf-9295ea052f88</authToken>
+					  <authToken>b500ff41-94e6-49fa-a4cf-9295ea052f88</authToken>
 				      <applicationName>${project.artifactId}</applicationName>
 				      <environment>Dev</environment>
 				      <region>us-east-2</region>
