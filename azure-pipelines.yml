@@ -60,7 +60,7 @@ steps:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m $(MAVEN_OPTS)'
     goals: 'deploy'
-    options: '-DskipTests -DmuleDeploy -Danypointusername=kafee678 -Danypointpassword=Sofia@651'
+    options: '-DskipTests -DmuleDeploy'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'Default'
