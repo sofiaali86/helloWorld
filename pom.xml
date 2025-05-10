@@ -37,7 +37,7 @@
 				      <applicationName>${project.artifactId}</applicationName>
 					  <businessGroup>Renown Health\Integration Team</businessGroup>
 				      <environment>UAT</environment>
-				      <region>us-east-2</region>
+				      <region>us-east-1</region>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
 				      <objectStoreV2>true</objectStoreV2>
