@@ -42,7 +42,7 @@
 				      <objectStoreV2>true</objectStoreV2>
 				      <properties>
 				        <http.port>${http.port}</http.port>
-				        <mule.env>Dev</mule.env>
+				        <mule.env>Design</mule.env>
 				      </properties>
 				    </cloudHubDeployment>
 				  </configuration>
