@@ -35,7 +35,7 @@
 				      <muleVersion>4.6.15</muleVersion>
 					  <authToken>843220c9-22ee-4944-99f2-283f29810122</authToken>
 				      <applicationName>${project.artifactId}</applicationName>
-					  <businessGroup>Renown Health</businessGroup>
+					  <businessGroup>Renown Health\Integration Team</businessGroup>
 				      <environment>UAT</environment>
 				      <region>us-east-2</region>
 				      <workers>1</workers>
