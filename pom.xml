@@ -32,8 +32,8 @@
 				<configuration>
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
-				      <muleVersion>4.6.15</muleVersion>
-					  <authToken>843220c9-22ee-4944-99f2-283f29810122</authToken>
+				      <muleVersion>4.6-java8</muleVersion>
+					  <authToken>b4a21e25-ed85-487e-8351-5aafd0420cb7</authToken>
 				      <applicationName>${project.artifactId}</applicationName>
 					  <businessGroup>Renown-Health\Integration Team</businessGroup>
 				      <environment>UAT</environment>
