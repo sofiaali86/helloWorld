@@ -35,7 +35,7 @@
 				      <muleVersion>4.6-java8</muleVersion>
 					  <authToken>30e7551b-64fa-47b0-b36e-c54e54a73b7d</authToken>
 				      <applicationName>helloworld</applicationName>
-					  <businessGroup>Renown-Health</businessGroup>
+					  <businessGroup>Renown Health</businessGroup>
 				      <environment>UAT</environment>
 				      <region>us-east-1</region>
 				      <workers>1</workers>
