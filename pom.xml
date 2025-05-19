@@ -33,7 +33,8 @@
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.6-java8</muleVersion>
-					  <authToken>30e7551b-64fa-47b0-b36e-c54e54a73b7d</authToken>
+					  <username>6cdac3d857674b0f93afe15db529884e</username>
+          			  <password>764B38383360482980bBbc22BdE35623</password>
 				      <applicationName>helloworld</applicationName>
 					  <businessGroup>Renown Health</businessGroup>
 				      <environment>UAT</environment>
