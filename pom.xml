@@ -33,18 +33,13 @@
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.6-java8</muleVersion>
-					  <authToken>b4a21e25-ed85-487e-8351-5aafd0420cb7</authToken>
-				      <applicationName>${project.artifactId}</applicationName>
-					  <businessGroup>Renown-Health\Integration Team</businessGroup>
+					  <authToken>30e7551b-64fa-47b0-b36e-c54e54a73b7d</authToken>
+				      <applicationName>helloworld</applicationName>
+					  <businessGroup>Renown-Health</businessGroup>
 				      <environment>UAT</environment>
 				      <region>us-east-1</region>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
-				      <objectStoreV2>true</objectStoreV2>
-				      <properties>
-				        <http.port>${http.port}</http.port>
-				        <mule.env>UAT</mule.env>
-				      </properties>
 				    </cloudHubDeployment>
 				  </configuration>
 			</plugin>
