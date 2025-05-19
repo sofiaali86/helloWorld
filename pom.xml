@@ -36,7 +36,7 @@
 					  <authToken>30e7551b-64fa-47b0-b36e-c54e54a73b7d</authToken>
 				      <applicationName>Sofiahelloworld</applicationName>
 					  <businessGroup>Renown Health</businessGroup>
-				      <environment>DEV</environment>
+				      <environment>UAT</environment>
 				      <region>us-east-1</region>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
