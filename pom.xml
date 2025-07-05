@@ -33,7 +33,7 @@
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.6-java8</muleVersion>
-					  <authToken>e941b119-a224-4959-b86c-0ca2c0ad30de</authToken>
+					  <authToken>c9559d17-21cd-4178-bc85-4aaa21130d6e</authToken>
 				      <applicationName>Sofiahelloworld</applicationName>
 					  <businessGroup>Renown Health</businessGroup>
 				      <environment>DEV</environment>
