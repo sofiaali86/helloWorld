@@ -24,6 +24,11 @@ steps:
     path: $(MAVEN_CACHE_FOLDER)
 - script: mvn install -B -e
 
+- task: DownloadSecureFile@1
+  name: downloadSettings
+  inputs:
+    secureFile: 'settings.xml'
+
 - task: Maven@3
   displayName: Build
   inputs:
@@ -33,6 +38,7 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
+    options: '-s ${downloadSettings.secureFilePath}'
     goals: 'package'
 
 - task: MavenAuthenticate@0
@@ -67,5 +73,6 @@ steps:
     jdkVersionOption: '1.8'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
+    options: '-s ${downloadSettings.secureFilePath}'
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
