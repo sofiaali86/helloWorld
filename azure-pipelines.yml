@@ -27,7 +27,7 @@ steps:
 - task: DownloadSecureFile@1
   name: downloadSettings
   inputs:
-    secureFile: 'settings.xml'
+    secureFile: 'setting.xml'
 
 - task: Maven@3
   displayName: Build
