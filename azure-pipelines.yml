@@ -68,6 +68,5 @@ steps:
     jdkVersionOption: '1.8'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
-    options: '-s ${downloadSettings.secureFilePath}'
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
